@@ -8,10 +8,10 @@
     ":automergeDigest"
   ],
   "platform": "github",
-  "username": "snuffleupagus-bot[bot]",
+  "username": "rmcd-bot[bot]",
   "onboarding": false,
   "requireConfig": "optional",
-  "gitAuthor": "snuffleupagus-bot <snuffleupagus-bot[bot]@users.noreply.github.com>",
+  "gitAuthor": "rmcd-bot <140569405+rmcd-bot[bot]@users.noreply.github.com>",
   "dependencyDashboardTitle": "Renovate Dashboard 🤖",
   "suppressNotifications": ["prIgnoreNotification"],
   "commitBodyTable": true,
