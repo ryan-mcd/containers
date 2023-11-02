@@ -68,6 +68,7 @@ Each Image will be built with a `rolling` tag, along with tags specific to it's 
 Container | Channel | Image | Latest Tags
 --- | --- | --- | ---
 [excalidraw-collab](https://github.com/ryan-mcd/containers/pkgs/container/excalidraw-collab) | stable | ghcr.io/ryan-mcd/excalidraw-collab |![0.0.3187](https://img.shields.io/badge/0.0.3187-blue?style=flat-square) ![rolling](https://img.shields.io/badge/rolling-blue?style=flat-square)
+[excalidraw-collab](https://github.com/ryan-mcd/containers/pkgs/container/excalidraw-collab) | stable | ghcr.io/ryan-mcd/excalidraw-collab |![0.0.3187](https://img.shields.io/badge/0.0.3187-blue?style=flat-square) ![rolling](https://img.shields.io/badge/rolling-blue?style=flat-square)
 [kopia](https://github.com/ryan-mcd/containers/pkgs/container/kopia) | stable | ghcr.io/ryan-mcd/kopia |![0.15.0](https://img.shields.io/badge/0.15.0-blue?style=flat-square) ![rolling](https://img.shields.io/badge/rolling-blue?style=flat-square)
 [sqlite](https://github.com/ryan-mcd/containers/pkgs/container/sqlite) | stable | ghcr.io/ryan-mcd/sqlite |![3](https://img.shields.io/badge/3-blue?style=flat-square) ![3.41](https://img.shields.io/badge/3.41-blue?style=flat-square) ![3.41.2](https://img.shields.io/badge/3.41.2-blue?style=flat-square) ![rolling](https://img.shields.io/badge/rolling-blue?style=flat-square)
 
