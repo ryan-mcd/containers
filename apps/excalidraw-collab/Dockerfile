@@ -18,7 +18,7 @@ RUN git clone https://github.com/excalidraw/excalidraw.git . && \
     NUMBER_COMMITS_TO_REVERT=$(( $(git rev-list --count --first-parent HEAD) - $(echo "${VERSION}" | cut -d "." -f3) )); \
     git checkout "master~$NUMBER_COMMITS_TO_REVERT"; \
   fi  && \
-  sed -i 's|"excalidraw.production.min": "./entry.js",|"excalidraw.production.min": "../../excalidraw-app/index.ts",|g' ./src/packages/excalidraw/webpack.prod.config.js && \
+  sed -i 's|"excalidraw.production.min": "./entry.js",|"excalidraw.production.min": "../../excalidraw-app/index.ts",|g' ./packages/excalidraw/webpack.prod.config.js && \
   sed -i 's|simpleanalyticscdn.com|localhost|g'  ./index.html && \
   yarn --ignore-optional --network-timeout 600000
 
