@@ -19,7 +19,7 @@ RUN git clone https://github.com/excalidraw/excalidraw.git . && \
     git checkout "master~$NUMBER_COMMITS_TO_REVERT"; \
   fi  && \
   sed -i 's|"excalidraw.production.min": "./entry.js",|"excalidraw.production.min": "../../excalidraw-app/index.ts",|g' ./packages/excalidraw/webpack.prod.config.js && \
-  sed -i 's|simpleanalyticscdn.com|localhost|g'  ./index.html && \
+  sed -i 's|simpleanalyticscdn.com|localhost|g'  ./excalidraw-app/index.html && \
   yarn --ignore-optional --network-timeout 600000
 
 RUN yarn build:app:docker
